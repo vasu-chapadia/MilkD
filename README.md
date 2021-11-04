@@ -1,2 +1,2 @@
 # MilkD
-Milk Delivery Application MAde with Expo CLI and React Native
+Milk Delivery Application Made with Expo CLI and React Native
