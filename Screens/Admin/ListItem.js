@@ -35,7 +35,7 @@ const ListItem = (props) => {
               }}
               underlayColor="#E8E8E8"
               onPress={() => {
-                setModalVisible(true);
+                setModalVisible(false);
               }}
             >
               <Icon name="close" size={20} />
@@ -47,7 +47,9 @@ const ListItem = (props) => {
                 setModalVisible(false);
               }}
             />
-            <Button title="Delete" />
+            <Button title="Delete" 
+            // Delete 
+            />
           </View>
         </View>
       </Modal>
@@ -76,7 +78,7 @@ const ListItem = (props) => {
           {props.name}
         </Text>
         <Text style={styles.item} numberOfLines={1} ellipsizeMode="tail">
-          {/* {props.category} */}
+          {/* {props.category.name} */}
         </Text>
         <Text style={styles.item}>₹ {props.price}</Text>
       </TouchableOpacity>

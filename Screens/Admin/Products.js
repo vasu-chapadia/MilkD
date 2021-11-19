@@ -24,7 +24,7 @@ const ListHeader = () => {
   return (
     <View elevation={1} style={styles.listHeader}>
       <View style={styles.headerItem}>
-      <Text style={{ fontWeight: "600" }}>Image</Text>
+        <Text style={{ fontWeight: "600" }}>Image</Text>
       </View>
       <View style={styles.headerItem}>
         <Text style={{ fontWeight: "600" }}>Brand</Text>
@@ -115,7 +115,7 @@ const Products = (props) => {
         <FlatList
           data={productFilter}
           ListHeaderComponent={ListHeader}
-          renderItem={({ item,index }) => (
+          renderItem={({ item, index }) => (
             <ListItem
               {...item}
               navigation={props.navigation}
