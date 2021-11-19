@@ -12,6 +12,8 @@ const Categories = (props) => {
   return (
     <View>
       <Text>Categories Screen</Text>
+      <Text>Discordbot Test </Text>
+
     </View>
   );
 };
